@@ -1,0 +1,28 @@
+{
+    "id": "ie-aib",
+    "name": "AIB",
+    "country": "ie",
+    "currency": "eur",
+    "accountTypes": [ {
+        "description": "Personal", 
+        "fopUuid": "FF8AB34B-9646-497C-8932-82E937651460"
+    }, {
+        "description": "Business",
+        "fopUuid": ""
+    }],
+    "logo": "https://assets.fire.com/pisp/aib.svg",
+    "maxpayment": { 
+        "amount": 10000,
+        "sourceUri": "https://aib.ie/ways-to-bank/transaction-limit-information"
+    },
+    "channels": [{
+        "type": "mobile",
+        "available": "yes",
+        "quality": "poor"
+    }, {
+        "type": "online", 
+        "available": "yes",
+        "quality": "poor"
+    }],
+    "note": "AIB currently require a card reader for payments to someone new (i.e. not an existing beneficiary in your online banking account). They are planning an update of their mobile app to support app-based authorisation in July 2021."
+}

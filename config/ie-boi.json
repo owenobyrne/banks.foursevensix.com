@@ -1,0 +1,25 @@
+{
+    "id": "ie-boi",
+    "name": "Bank of Ireland",
+    "country": "ie",
+    "currency": "eur",
+    "accountTypes": [ {
+        "description": "Personal", 
+        "fopUuid": "214E5759-C4B7-4555-A370-796A41A47B07"
+    }],
+    "logo": "https://assets.fire.com/pisp/boi.svg",
+    "maxpayment": { 
+        "amount": 20000,
+        "sourceUri": "https://www.bankofireland.com/help-centre/faq/much-can-transfer-365-online/"
+    },
+    "channels": [{
+        "type": "mobile",
+        "available": "yes",
+        "quality": "ok"
+    }, {
+        "type": "online", 
+        "available": "yes",
+        "quality": "ok"
+    }],
+    "note": "Bank of Ireland require the payer to go through an initial set up process before they can make PISP payments. This set up process does cause issues for payers. Once configured, the approval flow is straight-forward. "
+}
